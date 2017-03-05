@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: org.apache.predictionio#apache-predictionio-data_2.10;0.10.0-incubating :: 0.10.0-incubating :: release :: Sun Mar 05 21:19:51 IST 2017[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Sun Mar 05 21:19:51 IST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /home/test/Apps/experiments/machine-learning/predictionIO/apache-predictionio-0.10.0-incubating/data/target/scala-2.10/ivy-0.10.0-incubating.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (89ms)[0m

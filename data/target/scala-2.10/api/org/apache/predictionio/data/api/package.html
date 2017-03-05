@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>api - org.apache.predictionio.data.api</title>
+          <meta name="description" content="api - org.apache.predictionio.data.api" />
+          <meta name="keywords" content="api org.apache.predictionio.data.api" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.apache.predictionio.data.api.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../package.html" class="extype" name="org.apache.predictionio">predictionio</a>.<a href="../package.html" class="extype" name="org.apache.predictionio.data">data</a></p>
+        <h1>api</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">api</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.predictionio.data.api.Bookkeeping" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BookkeepingextendsProductwithSerializable"></a>
+      <a id="Bookkeeping:Bookkeeping"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Bookkeeping.html"><span class="name">Bookkeeping</span></a><span class="params">(<span name="appId">appId: <span class="extype" name="scala.Int">Int</span></span>, <span name="statusCode">statusCode: <span class="extype" name="spray.http.StatusCode">StatusCode</span></span>, <span name="event">event: <a href="../storage/Event.html" class="extype" name="org.apache.predictionio.data.storage.Event">Event</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.ChannelRejection" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelRejectionextendsRejectionwithProductwithSerializable"></a>
+      <a id="ChannelRejection:ChannelRejection"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelRejection.html"><span class="name">ChannelRejection</span></a><span class="params">(<span name="msg">msg: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="spray.routing.Rejection">Rejection</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">invalid channel</p>
+    </li><li name="org.apache.predictionio.data.api.EntityTypesEvent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EntityTypesEventextendsProductwithSerializable"></a>
+      <a id="EntityTypesEvent:EntityTypesEvent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="EntityTypesEvent.html"><span class="name">EntityTypesEvent</span></a><span class="params">(<span name="entityType">entityType: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="targetEntityType">targetEntityType: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="event">event: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventInfo" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventInfoextendsProductwithSerializable"></a>
+      <a id="EventInfo:EventInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventInfo.html"><span class="name">EventInfo</span></a><span class="params">(<span name="appId">appId: <span class="extype" name="scala.Int">Int</span></span>, <span name="channelId">channelId: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>]</span>, <span name="event">event: <a href="../storage/Event.html" class="extype" name="org.apache.predictionio.data.storage.Event">Event</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServerActorextendsActorwithActorLogging"></a>
+      <a id="EventServerActor:EventServerActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerActor.html"><span class="name">EventServerActor</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerConfig" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServerConfigextendsProductwithSerializable"></a>
+      <a id="EventServerConfig:EventServerConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerConfig.html"><span class="name">EventServerConfig</span></a><span class="params">(<span name="ip">ip: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;localhost&quot;</span></span>, <span name="port">port: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">7070</span></span>, <span name="plugins">plugins: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;plugins&quot;</span></span>, <span name="stats">stats: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerPlugin" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EventServerPluginextendsAnyRef"></a>
+      <a id="EventServerPlugin:EventServerPlugin"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerPlugin.html"><span class="name">EventServerPlugin</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerPluginContext" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServerPluginContextextendsAnyRef"></a>
+      <a id="EventServerPluginContext:EventServerPluginContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerPluginContext.html"><span class="name">EventServerPluginContext</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServiceActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServiceActorextendsHttpServiceActor"></a>
+      <a id="EventServiceActor:EventServiceActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServiceActor.html"><span class="name">EventServiceActor</span></a><span class="result"> extends <span class="extype" name="spray.routing.HttpServiceActor">HttpServiceActor</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.GetStats" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GetStatsextendsProductwithSerializable"></a>
+      <a id="GetStats:GetStats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="GetStats.html"><span class="name">GetStats</span></a><span class="params">(<span name="appId">appId: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.KV" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="KV[K,V]extendsProductwithSerializable"></a>
+      <a id="KV[K,V]:KV[K,V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="KV.html"><span class="name">KV</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">V</span>]</span><span class="params">(<span name="key">key: <span class="extype" name="org.apache.predictionio.data.api.KV.K">K</span></span>, <span name="value">value: <span class="extype" name="org.apache.predictionio.data.api.KV.V">V</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.NonExistentAppRejection" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NonExistentAppRejectionextendsRejectionwithProductwithSerializable"></a>
+      <a id="NonExistentAppRejection:NonExistentAppRejection"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="NonExistentAppRejection.html"><span class="name">NonExistentAppRejection</span></a><span class="params">(<span name="msg">msg: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="spray.routing.Rejection">Rejection</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">the app doesn't exist</p>
+    </li><li name="org.apache.predictionio.data.api.PluginsActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PluginsActorextendsActor"></a>
+      <a id="PluginsActor:PluginsActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PluginsActor.html"><span class="name">PluginsActor</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.StartServer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StartServerextendsProductwithSerializable"></a>
+      <a id="StartServer:StartServer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="StartServer.html"><span class="name">StartServer</span></a><span class="params">(<span name="host">host: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="port">port: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.Stats" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StatsextendsAnyRef"></a>
+      <a id="Stats:Stats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Stats.html"><span class="name">Stats</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.StatsActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StatsActorextendsActor"></a>
+      <a id="StatsActor:StatsActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="StatsActor.html"><span class="name">StatsActor</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.StatsSnapshot" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StatsSnapshotextendsProductwithSerializable"></a>
+      <a id="StatsSnapshot:StatsSnapshot"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="StatsSnapshot.html"><span class="name">StatsSnapshot</span></a><span class="params">(<span name="startTime">startTime: <span class="extype" name="com.github.nscala_time.time.TypeImports.DateTime">com.github.nscala_time.time.Imports.DateTime</span></span>, <span name="endTime">endTime: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="com.github.nscala_time.time.TypeImports.DateTime">com.github.nscala_time.time.Imports.DateTime</span>]</span>, <span name="basic">basic: <span class="extype" name="scala.Seq">Seq</span>[<a href="KV.html" class="extype" name="org.apache.predictionio.data.api.KV">KV</a>[<a href="EntityTypesEvent.html" class="extype" name="org.apache.predictionio.data.api.EntityTypesEvent">EntityTypesEvent</a>, <span class="extype" name="scala.Long">Long</span>]]</span>, <span name="statusCode">statusCode: <span class="extype" name="scala.Seq">Seq</span>[<a href="KV.html" class="extype" name="org.apache.predictionio.data.api.KV">KV</a>[<span class="extype" name="spray.http.StatusCode">StatusCode</span>, <span class="extype" name="scala.Long">Long</span>]]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.apache.predictionio.data.api.Common" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Common"></a>
+      <a id="Common:Common"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Common$.html"><span class="name">Common</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServer"></a>
+      <a id="EventServer:EventServer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServer$.html"><span class="name">EventServer</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerPlugin" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServerPlugin"></a>
+      <a id="EventServerPlugin:EventServerPlugin"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerPlugin$.html"><span class="name">EventServerPlugin</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.EventServerPluginContext" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventServerPluginContext"></a>
+      <a id="EventServerPluginContext:EventServerPluginContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EventServerPluginContext$.html"><span class="name">EventServerPluginContext</span></a><span class="result"> extends <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.PluginsActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PluginsActor"></a>
+      <a id="PluginsActor:PluginsActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PluginsActor$.html"><span class="name">PluginsActor</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.apache.predictionio.data.api.Run" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Run"></a>
+      <a id="Run:Run"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Run$.html"><span class="name">Run</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>
